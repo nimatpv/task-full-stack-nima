@@ -1,0 +1,43 @@
+body{
+    width: 100vw;
+    height: 300vh;
+    background-color: aqua;
+
+}
+div{
+
+    background-color: rgb(14, 216, 169);
+}
+.div1{
+    background-color: blueviolet;
+}
+.links{
+
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-right: 30px;
+}
+a{
+
+margin-left: 20px;
+
+}
+a:hover{
+
+color: blueviolet;
+
+}
+
+a:active{
+
+color: cadetblue;
+
+}
+
+.mypre{
+
+cursor: pointer;
+
+}
