@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <style>
+
+        p:nth-child(1){
+            color: blue;
+        }
+
+        /* body>p{
+
+            color: brown;
+
+        } */
+
+        /* p:last-of-type{
+
+            color:darkgoldenrod;
+        } */
+
+        p:first-child{
+
+            color: cadetblue;
+            text-decoration: underline;
+            letter-spacing: 5px;
+            font-size: xx-small;
+            font-weight: 100;
+
+        }
+        div{
+            width: 150px;
+            border: 1px solid #140000;
+            height: 200px;
+
+
+        }
+        div.a{
+
+            word-wrap: normal;
+        }
+        div.b{
+
+            word-wrap:break-word;
+
+        }
+
+
+
+        </style>
+
+
+
+    </head>
+    <body>
+    
+        <p class="a">this is my sample text wich i want tp explain</p>
+        <p class="b">این یک متن نمونه فارسی است</p>
+        <p class="c">یک متن نمونه ساده</p>
+
+        <h1>hello world</h1>
+        <h2>word--rap</h2>
+        <div class="a">
+
+            this div contains a long world :
+            real text long real text long
+            real text long real text long
+            real text long real text long
+
+
+
+        </div>
+        <h2>word-rap:break - word</h2>
+
+        <div class="b">
+
+        real text long real text long
+        real text long real text long
+        real text long real text long
+        </div>
+
+    </body>
+</html>
