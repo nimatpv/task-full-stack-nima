@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            p{
+                border: 2px solid blueviolet;
+            }
+            
+
+
+
+
+
+        </style>
+    <script>
+
+        const getcomment=()=> {
+            const cmnt=document.getElementById("comment");
+            cmnt.contentEditable="false";
+            const mycomment=document.getElementById("comment").innerText
+            alert(mycomment)
+        }
+
+
+
+    </script>
+
+
+
+
+
+    </head>
+    <body>
+        <p contenteditable="true" id="comment"></p>
+        <button onclick="getcomment()">save coment</button>
+
+
+
+    
+    </body>
+</html>

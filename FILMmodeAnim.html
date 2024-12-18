@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            @keyframes move {
+                0%{
+                    transform:translateX(0) ;
+                background-color: blue;}
+
+                25%{
+                    transform:translateX(200px) ;
+                background-color: yellow; 
+                }
+                100%{
+                    transform:translateX(500px) ;
+                background-color: red;
+                }
+
+            }
+            .box{
+
+                width:100px ;
+                height:100px ;
+                background-color:bisque ;
+                margin: 20px;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+            }
+            .forwards{
+                animation-name: move;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            .backwards{
+                animation-name:move ;
+                animation-fill-mode:backwards ;
+                animation-delay: 1s;
+
+
+            }
+            .both{
+
+                animation-name: move;
+                animation-fill-mode:both ;
+                animation-delay: 1s;
+
+
+
+            }
+
+
+
+        </style>
+
+
+
+
+    </head>
+    <body>
+
+        <div class="box forwards"></div>
+        <div class="box backwards"></div>
+        <div class="box both"></div>
+
+
+    
+    </body>
+</html>
